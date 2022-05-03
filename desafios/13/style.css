@@ -53,6 +53,9 @@ section.normal{
     background-color: white;
     color: black;
 }
+section.normal > p{
+    padding-bottom: 0px;
+}
 section.imagem{
     background-color: rgb(95, 95, 95);
     color: white;
@@ -84,4 +87,5 @@ footer{
     text-align: center;
     color: whitesmoke;
     padding: 10px;
+    font-size: 0.8em;
 }
