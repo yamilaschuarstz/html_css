@@ -1,0 +1,94 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #61361D;
+    text-align: center;
+    color: white;
+    height: 125px;
+    padding: 20px 0px 0px 20px
+}
+header > h1{
+    padding-bottom: 2px;
+    font-family: 'Passion One', Arial, sans serif;
+    font-size: 3.5em;
+}
+header p{
+    font-family: 'Dosis', Arial, sans serif;
+    font-weight: 400;
+}
+header > img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    top: 2%;
+    right: 2%;
+    bottom: 2%;
+    left: 2%;
+    
+    position: absolute;
+}
+nav{
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+nav >a{
+    padding-right:100px;
+    padding-left: 100px;
+    text-decoration: none;
+    color: rgb(216, 33, 9);
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+nav > a:hover{
+    color: #61361D;
+}
+body{
+    background-image: url('imagens/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+article{
+    background-color: white;
+    max-width: 700px;
+    min-width: 250px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Dosis', Arial ;
+    box-shadow: 3px 1px 6px 5px rgba(0, 0, 0, 0.185);
+}
+article > section > p{
+    text-align: justify;
+}
+section > p{
+    text-indent: 30px;
+    padding: 15px 0px;
+}
+section > img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+footer{
+    background-color: #61361D;
+    font-family: 'Dosis', Arial, sans serif;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
