@@ -12,18 +12,17 @@ header{
     background-color: #61361D;
     text-align: center;
     color: white;
-    height: 125px;
+    min-height: 130px;
     padding: 20px 0px 0px 20px
 }
 header > h1{
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Passion One', Arial, sans serif;
     font-size: 3.5em;
-}
-header p{
-    font-family: 'Dosis', Arial, sans serif;
-    font-weight: 400;
+    max-width: 500px;
+    min-width: 250px;
+    margin: auto;
 }
 header > img{
     width: 100px;
@@ -33,37 +32,57 @@ header > img{
     right: 2%;
     bottom: 2%;
     left: 1.5%;
-    
     position: absolute;
 }
+#menor{
+    width: 100px;
+    height: 100px;
+    display: block;
+    top: 20%;
+    left: 1,5%;
+}
 nav{
-    background-color: white;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 40px;
     text-align: center;
-    margin-bottom: 3px;
+    padding-bottom: 10px;
 }
 nav >a{
     padding-right:100px;
     padding-left: 100px;
     text-decoration: none;
-    color: rgb(216, 33, 9);
+    color: white;
     font-family: 'Dosis', Arial, Helvetica, sans-serif;
     font-weight: 500;
-
 }
 nav > a:hover{
-    color: #61361D;
+    color: rgb(216, 33, 9);
 }
 body{
-    background-image: url('imagens/bg.jpg');
+    
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 100%;
     background-attachment: fixed;
+    font-family: 'Dosis', Arial ;
     color: #361f11;
+}
+div{
+    background-image: url(imagens/stpauli.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div > section{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    max-width: 700px;
+    margin: auto;;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 1.5em;
+    border-radius: 10px;
+    min-width: 250px;
 }
 section > h1{
     font-size: 1.5em;
